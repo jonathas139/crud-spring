@@ -8,4 +8,4 @@ package com.jonathas.crud_spring.dto;
  *
  * @author jonat
  */
-public record ResponseDTO (String name, String token) { }
+public record ResponseDTO (Long id, String name, String token) { }
